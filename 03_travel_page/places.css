@@ -3,12 +3,21 @@ body {
   color: rgb(68, 68, 68);
 }
 
+#page-logo a {
+  color: rgb(183, 230, 235);
+}
+
 header {
   position: static;
 }
 
-main h2 {
-  color: black;
+header a {
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
 }
 
 main ul {
@@ -43,6 +52,10 @@ main li img {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+}
+
+.item-content h2 {
+  margin: 0;
 }
 
 .actions {
